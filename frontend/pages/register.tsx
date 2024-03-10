@@ -103,7 +103,7 @@ const Register: React.FC = () => {
         <p style={{ marginTop: '20px', fontSize: '14px', color: 'gray', textAlign: 'center' }}>
           Already have an account? <Link href="/login" className="nav-link">log in</Link>
         </p>
-      </div>
+      </div> 
     </div>
        </Layout>
   );
