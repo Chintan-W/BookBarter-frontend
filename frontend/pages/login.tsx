@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 import { FaFacebookSquare, FaGoogle } from 'react-icons/fa'; // Import social icons
 import Layout from '../components/Layout';
-
+import Link from 'next/link';
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
 // Define interface for form values
@@ -119,7 +119,7 @@ const Login: React.FC = () => {
           </div>
 
           <p style={{ marginTop: '20px', fontSize: '14px', color: 'gray', textAlign: 'center' }}>
-            Don't have an account? <a href="/register">Register</a>
+            Don't have an account? <Link href="/register" className="nav-link">register</Link>
           </p>
         </div>
       </div>

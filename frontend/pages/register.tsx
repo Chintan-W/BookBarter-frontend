@@ -5,6 +5,7 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 import { FaFacebookSquare, FaGoogle } from 'react-icons/fa'; // Import social icons
 import Layout from '../components/Layout';
+import Link from 'next/link';
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
@@ -100,7 +101,7 @@ const Register: React.FC = () => {
         </div>
 
         <p style={{ marginTop: '20px', fontSize: '14px', color: 'gray', textAlign: 'center' }}>
-          Already have an account? <a href="/login" >Log in</a>
+          Already have an account? <Link href="/login" className="nav-link">log in</Link>
         </p>
       </div>
     </div>
