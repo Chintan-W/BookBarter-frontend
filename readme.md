@@ -1,5 +1,5 @@
+# Implemented using NextJS and TypeScript
 # Project Name
-# Implemented using NextJS
 BookBarter app which lets user exchange books  with other users. It allows the user to search book and add their own listings
 
 Team: Mavericks
@@ -55,6 +55,9 @@ To Run npm run dev
 
 
 ## Screenshots
-![Dashboard](/screenshots/dashboard.png)
+![Dashboard](/screenshots/Home.png)
 ![Register](/screenshots/register.png)
 ![Login](/screenshots/login.png)
+![Listings](/screenshots/Listings.png)
+![My Listings](/screenshots/mylistings.png)
+![Exchange Requests](/screenshots/requests.png)

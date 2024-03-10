@@ -61,7 +61,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLoggedIn, setIsLoggedIn }) => {
                 </li>
                 <li>
                   <Link href="/exchangerequests" className="nav-link">
-                    Requests
+                    Exchange Requests
                   </Link>
                 </li>
                 <li className="nav-item">

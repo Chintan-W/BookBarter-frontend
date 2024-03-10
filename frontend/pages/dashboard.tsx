@@ -38,7 +38,7 @@ const Dashboard = () => {
       <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '16px' }}>
         <div>
           <div style={{ backgroundImage: 'url("https://img.freepik.com/premium-vector/set-hand-drawn-book-doodle-elements_253081-8.jpg")', backgroundRepeat: 'repeat', backgroundSize: '550px', padding: '16px', borderRadius: '4px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}>
-            <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '16px', textAlign: 'center' }}>Shop</h2>
+            <h1 style={{ backgroundColor:'#3182ce',  fontWeight: 'bold', marginBottom: '16px', textAlign: 'center' }}>Shop</h1>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '16px' }}>
               {currentBooks.map((book, index) => (
                 <div key={index} style={{ background: '#f4f4f4', padding: '16px', borderRadius: '4px', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', position: 'relative', overflow: 'hidden' }}>

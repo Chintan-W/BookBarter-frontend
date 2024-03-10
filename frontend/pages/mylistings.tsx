@@ -71,9 +71,10 @@ const MyListings: React.FC = () => {
 
   return (
     <Layout>
-      <div>
-        <h1>My Listings</h1>
+      <div className='container'>
+      <h1 style={{ fontWeight: 'bold', marginBottom: '16px', textAlign: 'center' }}>My Listings</h1>
         <Button variant="success" onClick={() => setShowAddBook(true)}>Add Book</Button>{' '}
+        <br /><br />
         {showAddBook && <AddBook onClose={() => setShowAddBook(false)} />} {/* Close the AddBook form */}
         {listings.map(listing => (
           <div key={listing.ISBN} style={{ marginBottom: '10px', padding: '10px', border: '1px solid #ccc', borderRadius: '8px', display: 'flex', alignItems: 'center' }}>
